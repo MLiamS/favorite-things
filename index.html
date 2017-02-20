@@ -9,18 +9,33 @@
   <body>
     <form id="favorite-things">
       <div class="form-group">
+        <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <label for="color">What is your favorite color?</label>
+              <label for="color">What is your favorite Color?</label>
               <input id="color" class="form-control" type="text">
             </div>
             <div class="col-md-4">
+              <label for="band">What is your favorite Band?</label>
+              <input id="band" class="form-control" type="text">
             </div>
             <div class="col-md-4">
+              <label for="food">What is your favorite Food?</label>
+              <input id="food" class="form-control" type="text">
             </div>
+          </div>
+            <div class="row">
+            <div class="text-center">
+              <div class="well">
+              <button type="submit" class="btn btn-danger">Submit</button>
+              </div>
+            </div>
+          </div>
           </div>
       </div>
     </form>
+    <ul id="result">
+    </ul>
   </body>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
